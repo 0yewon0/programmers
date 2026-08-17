@@ -14,9 +14,9 @@ def solution(operations):
                 continue
             
             if num == 1:
-                q.pop()      # 최댓값 삭제
+                q.pop()
             else:
-                q.pop(0)     # 최솟값 삭제
+                q.pop(0)
     
     if not q:
         return [0, 0]
